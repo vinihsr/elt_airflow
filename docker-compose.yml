@@ -1,0 +1,31 @@
+services: 
+  postgres:
+    image: postgres:15
+    container_name: cars_postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "5435:5432"
+    networks:
+      - cars_network
+
+  app:
+    build: .
+    container_name: cars_extractor
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+    extra_hosts:
+    - "host.docker.internal:host-gateway"
+    networks:
+      - cars_network
+
+
+networks:
+  cars_network:
+    driver: bridge
