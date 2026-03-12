@@ -1,0 +1,34 @@
+[2026-03-12T01:14:00.061+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: oncar_elt_flow.transform_with_dbt scheduled__2026-03-11T00:00:00+00:00 [queued]>
+[2026-03-12T01:14:00.068+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: oncar_elt_flow.transform_with_dbt scheduled__2026-03-11T00:00:00+00:00 [queued]>
+[2026-03-12T01:14:00.068+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-03-12T01:14:00.079+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): transform_with_dbt> on 2026-03-11 00:00:00+00:00
+[2026-03-12T01:14:00.093+0000] {standard_task_runner.py:60} INFO - Started process 677 to run task
+[2026-03-12T01:14:00.097+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'oncar_elt_flow', 'transform_with_dbt', 'scheduled__2026-03-11T00:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/cars_pipeline.py', '--cfg-path', '/tmp/tmpl694wjk5']
+[2026-03-12T01:14:00.099+0000] {standard_task_runner.py:88} INFO - Job 18: Subtask transform_with_dbt
+[2026-03-12T01:14:00.155+0000] {task_command.py:423} INFO - Running <TaskInstance: oncar_elt_flow.transform_with_dbt scheduled__2026-03-11T00:00:00+00:00 [running]> on host ee340a30bc68
+[2026-03-12T01:14:00.243+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vinicius' AIRFLOW_CTX_DAG_ID='oncar_elt_flow' AIRFLOW_CTX_TASK_ID='transform_with_dbt' AIRFLOW_CTX_EXECUTION_DATE='2026-03-11T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-11T00:00:00+00:00'
+[2026-03-12T01:14:00.245+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-12T01:14:00.246+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow/transform && dbt --no-write-json run --profiles-dir ../.dbt']
+[2026-03-12T01:14:00.274+0000] {subprocess.py:86} INFO - Output:
+[2026-03-12T01:14:02.741+0000] {subprocess.py:93} INFO - [0m01:14:02  Running with dbt=1.7.0
+[2026-03-12T01:14:03.092+0000] {subprocess.py:93} INFO - [0m01:14:03  Registered adapter: postgres=1.7.0
+[2026-03-12T01:14:03.135+0000] {subprocess.py:93} INFO - [0m01:14:03  Found 3 models, 4 tests, 1 source, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2026-03-12T01:14:03.138+0000] {subprocess.py:93} INFO - [0m01:14:03
+[2026-03-12T01:14:03.229+0000] {subprocess.py:93} INFO - [0m01:14:03  Concurrency: 1 threads (target='dev')
+[2026-03-12T01:14:03.230+0000] {subprocess.py:93} INFO - [0m01:14:03
+[2026-03-12T01:14:03.239+0000] {subprocess.py:93} INFO - [0m01:14:03  1 of 3 START sql table model analytics.dim_cars ................................ [RUN]
+[2026-03-12T01:14:03.363+0000] {subprocess.py:93} INFO - [0m01:14:03  1 of 3 OK created sql table model analytics.dim_cars ........................... [[32mSELECT 17[0m in 0.12s]
+[2026-03-12T01:14:03.365+0000] {subprocess.py:93} INFO - [0m01:14:03  2 of 3 START sql table model analytics.my_first_dbt_model ...................... [RUN]
+[2026-03-12T01:14:03.410+0000] {subprocess.py:93} INFO - [0m01:14:03  2 of 3 OK created sql table model analytics.my_first_dbt_model ................. [[32mSELECT 2[0m in 0.04s]
+[2026-03-12T01:14:03.413+0000] {subprocess.py:93} INFO - [0m01:14:03  3 of 3 START sql table model analytics.my_second_dbt_model ..................... [RUN]
+[2026-03-12T01:14:03.459+0000] {subprocess.py:93} INFO - [0m01:14:03  3 of 3 OK created sql table model analytics.my_second_dbt_model ................ [[32mSELECT 1[0m in 0.04s]
+[2026-03-12T01:14:03.473+0000] {subprocess.py:93} INFO - [0m01:14:03
+[2026-03-12T01:14:03.473+0000] {subprocess.py:93} INFO - [0m01:14:03  Finished running 3 table models in 0 hours 0 minutes and 0.33 seconds (0.33s).
+[2026-03-12T01:14:03.475+0000] {subprocess.py:93} INFO - [0m01:14:03
+[2026-03-12T01:14:03.475+0000] {subprocess.py:93} INFO - [0m01:14:03  [32mCompleted successfully[0m
+[2026-03-12T01:14:03.476+0000] {subprocess.py:93} INFO - [0m01:14:03
+[2026-03-12T01:14:03.476+0000] {subprocess.py:93} INFO - [0m01:14:03  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[2026-03-12T01:14:03.798+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-03-12T01:14:03.827+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=oncar_elt_flow, task_id=transform_with_dbt, execution_date=20260311T000000, start_date=20260312T011400, end_date=20260312T011403
+[2026-03-12T01:14:03.879+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-12T01:14:03.896+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

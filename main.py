@@ -1,7 +1,7 @@
 from extract import extract_car_data
 from load import load_to_postgres
 
-def main():
+def run_pipeline():
     print("--- Starting OnCar Data Pipeline ---")
     print("Step 1: Extracting data from API...")
     df = extract_car_data() # Call the extraction
@@ -14,4 +14,4 @@ def main():
         print("Pipeline aborted: No data found.")
 
 if __name__ == "__main__": # Main function
-    main()
+    run_pipeline()

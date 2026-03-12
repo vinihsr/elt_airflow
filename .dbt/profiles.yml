@@ -1,0 +1,12 @@
+cars_project:
+  outputs:
+    dev:
+      type: postgres
+      host: postgres # Docker service name
+      user: "{{ env_var('POSTGRES_USER') }}"
+      pass: "{{ env_var('POSTGRES_PASSWORD') }}"
+      port: 5432
+      dbname: "{{ env_var('POSTGRES_DB') }}"
+      schema: analytics # Where the clean data will go
+      threads: 1
+  target: dev

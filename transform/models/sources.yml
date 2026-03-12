@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: external_api
+    database: cars_db
+    schema: public
+    tables:
+      - name: src_cars

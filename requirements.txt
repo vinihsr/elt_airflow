@@ -5,7 +5,8 @@ python-dotenv==1.0.1  # For loading your API_KEY and DB credentials
 sqlalchemy==2.0.27    # The toolkit for connecting Python to Postgres
 psycopg2-binary==2.9.9 # The PostgreSQL driver for Python
 
-# apache-airflow==2.8.1 # Airflow -- Soon
+apache-airflow==2.8.1 # Airflow -- Soon
 
 dbt-core==1.7.0       # The main dbt engine
 dbt-postgres==1.7.0   # The specific adapter for your PostgreSQL storage
+protobuf==4.25.3      # Hotfix for a version mismatching 

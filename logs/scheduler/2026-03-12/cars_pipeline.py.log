@@ -1,0 +1,91 @@
+[2026-03-12T01:13:58.245+0000] {processor.py:161} INFO - Started process (PID=658) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:13:58.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:13:58.247+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:13:58.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:13:58.664+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:13:58.693+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:13:58.693+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:13:58.716+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:13:58.716+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:13:58.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.493 seconds
+[2026-03-12T01:14:28.935+0000] {processor.py:161} INFO - Started process (PID=686) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:14:28.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:14:28.937+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:14:28.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:14:29.347+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:14:29.377+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:14:29.377+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:14:29.402+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:14:29.402+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:14:29.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.491 seconds
+[2026-03-12T01:14:59.626+0000] {processor.py:161} INFO - Started process (PID=692) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:14:59.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:14:59.629+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:14:59.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:14:59.977+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:15:00.003+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:15:00.003+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:15:00.025+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:15:00.024+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:15:00.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.419 seconds
+[2026-03-12T01:15:30.232+0000] {processor.py:161} INFO - Started process (PID=698) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:15:30.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:15:30.236+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:15:30.235+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:15:30.607+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:15:30.636+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:15:30.635+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:15:30.658+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:15:30.658+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:15:30.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.447 seconds
+[2026-03-12T01:16:00.886+0000] {processor.py:161} INFO - Started process (PID=704) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:16:00.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:16:00.890+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:16:00.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:16:01.232+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:16:01.258+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:16:01.258+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:16:01.279+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:16:01.279+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:16:01.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.409 seconds
+[2026-03-12T01:16:31.494+0000] {processor.py:161} INFO - Started process (PID=710) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:16:31.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:16:31.495+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:16:31.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:16:31.835+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:16:31.861+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:16:31.861+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:16:31.880+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:16:31.880+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:16:31.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.406 seconds
+[2026-03-12T01:17:02.094+0000] {processor.py:161} INFO - Started process (PID=716) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:17:02.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:17:02.098+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:17:02.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:17:02.436+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:17:02.462+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:17:02.462+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:17:02.484+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:17:02.483+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:17:02.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.411 seconds
+[2026-03-12T01:17:32.691+0000] {processor.py:161} INFO - Started process (PID=722) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:17:32.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:17:32.694+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:17:32.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:17:33.045+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:17:33.071+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:17:33.071+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:17:33.092+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:17:33.091+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:17:33.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.423 seconds
+[2026-03-12T01:18:03.304+0000] {processor.py:161} INFO - Started process (PID=728) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:18:03.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:18:03.308+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:18:03.307+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:18:03.653+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:18:03.678+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:18:03.678+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:18:03.700+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:18:03.699+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:18:03.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.414 seconds
+[2026-03-12T01:18:33.898+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:18:33.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:18:33.902+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:18:33.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:18:34.245+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:18:34.271+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:18:34.270+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:18:34.292+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:18:34.291+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:18:34.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.414 seconds
+[2026-03-12T01:19:04.516+0000] {processor.py:161} INFO - Started process (PID=740) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:19:04.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:19:04.520+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:19:04.520+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:19:04.899+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:19:04.926+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:19:04.926+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:19:04.947+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:19:04.947+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:19:04.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.453 seconds
+[2026-03-12T01:19:35.163+0000] {processor.py:161} INFO - Started process (PID=746) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:19:35.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:19:35.166+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:19:35.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:19:35.514+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:19:35.540+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:19:35.540+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:19:35.562+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:19:35.562+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:19:35.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.423 seconds
+[2026-03-12T01:20:05.772+0000] {processor.py:161} INFO - Started process (PID=752) to work on /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:20:05.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cars_pipeline.py for tasks to queue
+[2026-03-12T01:20:05.776+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:20:05.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:20:06.139+0000] {processor.py:840} INFO - DAG(s) 'oncar_elt_flow' retrieved from /opt/airflow/dags/cars_pipeline.py
+[2026-03-12T01:20:06.166+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:20:06.165+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-12T01:20:06.186+0000] {logging_mixin.py:188} INFO - [2026-03-12T01:20:06.186+0000] {dag.py:3823} INFO - Setting next_dagrun for oncar_elt_flow to 2026-03-12 00:00:00+00:00, run_after=2026-03-13 00:00:00+00:00
+[2026-03-12T01:20:06.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cars_pipeline.py took 0.436 seconds

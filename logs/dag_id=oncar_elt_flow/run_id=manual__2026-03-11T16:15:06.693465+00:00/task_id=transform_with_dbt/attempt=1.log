@@ -1,0 +1,26 @@
+[2026-03-11T16:15:08.586+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: oncar_elt_flow.transform_with_dbt manual__2026-03-11T16:15:06.693465+00:00 [queued]>
+[2026-03-11T16:15:08.590+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: oncar_elt_flow.transform_with_dbt manual__2026-03-11T16:15:06.693465+00:00 [queued]>
+[2026-03-11T16:15:08.590+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-03-11T16:15:08.598+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): transform_with_dbt> on 2026-03-11 16:15:06.693465+00:00
+[2026-03-11T16:15:08.605+0000] {standard_task_runner.py:60} INFO - Started process 344 to run task
+[2026-03-11T16:15:08.607+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'oncar_elt_flow', 'transform_with_dbt', 'manual__2026-03-11T16:15:06.693465+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/cars_pipeline.py', '--cfg-path', '/tmp/tmp58uceug3']
+[2026-03-11T16:15:08.608+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask transform_with_dbt
+[2026-03-11T16:15:08.643+0000] {task_command.py:423} INFO - Running <TaskInstance: oncar_elt_flow.transform_with_dbt manual__2026-03-11T16:15:06.693465+00:00 [running]> on host d140c64b03bf
+[2026-03-11T16:15:08.696+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vinicius' AIRFLOW_CTX_DAG_ID='oncar_elt_flow' AIRFLOW_CTX_TASK_ID='transform_with_dbt' AIRFLOW_CTX_EXECUTION_DATE='2026-03-11T16:15:06.693465+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-11T16:15:06.693465+00:00'
+[2026-03-11T16:15:08.698+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-11T16:15:08.698+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow/transform && dbt run --profiles-dir ../.dbt']
+[2026-03-11T16:15:08.714+0000] {subprocess.py:86} INFO - Output:
+[2026-03-11T16:15:08.716+0000] {subprocess.py:93} INFO - /usr/bin/bash: line 1: dbt: command not found
+[2026-03-11T16:15:08.716+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2026-03-11T16:15:08.724+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2026-03-11T16:15:08.726+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=oncar_elt_flow, task_id=transform_with_dbt, execution_date=20260311T161506, start_date=20260311T161508, end_date=20260311T161508
+[2026-03-11T16:15:08.734+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 6 for task transform_with_dbt (Bash command failed. The command returned a non-zero exit code 127.; 344)
+[2026-03-11T16:15:08.779+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-03-11T16:15:08.797+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
